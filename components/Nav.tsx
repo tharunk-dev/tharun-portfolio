@@ -1,9 +1,8 @@
-
 "use client";
+
 import Link from "next/link";
-import { Github, Linkedin, Mail } from "lucide-react";
-import { SITE } from "@/data/site";
 import { usePathname } from "next/navigation";
+import { SITE } from "@/data/site";
 
 const links = [
   { href: "/", label: "Home" },
@@ -15,27 +14,54 @@ const links = [
 
 export default function Nav() {
   const pathname = usePathname();
+
   return (
-    <header className="sticky top-0 z-40 backdrop-blur border-b border-bg-ring/60 bg-bg/60">
-      <nav className="container h-16 flex items-center justify-between">
-        <Link href="/" className="text-lg font-semibold tracking-wide">
+    <header className="sticky top-0 z-40 backdrop-blur border-b border-b-gray-800">
+      <nav className="container h-16 flex items-center justify-between text-text">
+        {/* Logo / Name */}
+        <Link href="/" className="font-semibold text-lg tracking-wide">
           {SITE.name}
         </Link>
+
+        {/* Navigation Links */}
         <div className="hidden md:flex items-center gap-6">
-          {links.map(l => (
+          {links.map((i) => (
             <Link
-              key={l.href}
+              key={i.href}
               href={i.href as unknown as URL}
-              className={`text-sm hover:opacity-80 ${pathname === l.href ? "text-brand" : "text-text-muted"}`}
+              className={`text-sm hover:opacity-80 transition ${
+                pathname === i.href ? "text-brand" : "text-muted"
+              }`}
             >
-              {l.label}
+              {i.label}
             </Link>
           ))}
         </div>
-        <div className="flex items-center gap-2">
-          <a className="btn" href={SITE.github} target="_blank" rel="noreferrer"><Github size={18}/>GitHub</a>
-          <a className="btn" href={SITE.linkedin} target="_blank" rel="noreferrer"><Linkedin size={18}/>LinkedIn</a>
-          <a className="btn" href={`mailto:${SITE.email}`}><Mail size={18}/>Email</a>
+
+        {/* External Links */}
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href={SITE.github}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm border px-3 py-1 rounded-md hover:bg-brand/10 transition"
+          >
+            GitHub
+          </a>
+          <a
+            href={SITE.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm border px-3 py-1 rounded-md hover:bg-brand/10 transition"
+          >
+            LinkedIn
+          </a>
+          <a
+            href={`mailto:${SITE.email}`}
+            className="text-sm border px-3 py-1 rounded-md hover:bg-brand/10 transition"
+          >
+            Email
+          </a>
         </div>
       </nav>
     </header>
