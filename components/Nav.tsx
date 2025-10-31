@@ -25,7 +25,7 @@ export default function Nav() {
           {links.map(l => (
             <Link
               key={l.href}
-              href={l.href}
+              href={i.href as unknown as URL}
               className={`text-sm hover:opacity-80 ${pathname === l.href ? "text-brand" : "text-text-muted"}`}
             >
               {l.label}
