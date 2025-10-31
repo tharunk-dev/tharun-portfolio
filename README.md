@@ -1,4 +1,5 @@
-🧑‍💻 Tharun K — Portfolio
+  🌐 Live Demo → [https://tharunk.vercel.app](https://tharunk.vercel.app)
+                         🧑‍💻 Tharun K — Portfolio
 
 A sleek and modern developer portfolio showcasing my work, technical expertise, and professional experience.
 Built with Next.js, Tailwind CSS, and Framer Motion for smooth animations and a clean UI.
