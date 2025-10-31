@@ -1,4 +1,4 @@
-🧑‍💻 Tharun K — Developer Portfolio
+🧑‍💻 Tharun K — Portfolio
 
 A sleek, professional portfolio website designed and developed with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 This site highlights my journey as a Software Development Engineer, featuring key skills, real-world projects, and experience — all wrapped in a minimal dark UI optimized for performance and mobile responsiveness.
