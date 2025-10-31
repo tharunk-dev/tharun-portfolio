@@ -1,63 +1,52 @@
+🧑‍💻 Tharun K — Portfolio
 
-# Tharun Portfolio
+A sleek and modern developer portfolio showcasing my work, technical expertise, and professional experience.
+Built with Next.js, Tailwind CSS, and Framer Motion for smooth animations and a clean UI.
 
-A modern, professional developer portfolio built with **Next.js 14 (App Router)**, **Tailwind CSS**, and **Framer Motion**.
+🚀 Overview
 
-## ✨ Features
-- Dark, elegant theme with subtle gradients
-- App Router pages: Home, About, Projects, Experience, Contact
-- Animated sections with Framer Motion
-- Responsive layout, accessible components
-- Easy content editing in `data/site.ts`
+This portfolio highlights my journey as a Software Development Engineer, featuring:
 
-## 🚀 Quick Start
-```bash
-# 1) Install deps
+Core technical skills in backend, frontend, and cloud.
+
+Selected projects demonstrating real-world impact.
+
+A clean, responsive layout designed for performance and accessibility.
+
+It’s crafted to be minimal, fast, and developer-centric — the kind of portfolio I’d actually use to represent myself professionally.
+
+🧩 Tech Stack
+
+Frontend: Next.js 14 (App Router), React, TypeScript
+
+Styling: Tailwind CSS
+
+Animations: Framer Motion
+
+Hosting: Vercel
+
+Version Control: Git & GitHub
+
+⚙️ Setup Instructions
+# 1. Install dependencies
 npm install
 
-# 2) Run dev server
+# 2. Run locally
 npm run dev
-# visit http://localhost:3000
-```
 
-## 🔧 Customize
-Edit your name, tagline, skills, links, projects, and experience in:
-```
-data/site.ts
-```
 
-- Replace placeholder LinkedIn with your real profile when ready:
-```ts
-export const SITE = {
-  // ...
-  linkedin: "https://www.linkedin.com/in/your-handle",
-};
-```
-- Optional: point `resumeUrl` to a hosted PDF.
+Then open http://localhost:3000
+ to view it live.
 
-## 🧪 Build
-```bash
-npm run build && npm start
-```
+🖼️ Customization
 
-## ☁️ Deploy (Vercel)
-1. Push this project to a GitHub repo.
-2. Go to https://vercel.com/import and select the repo.
-3. Use the default **Next.js** settings and deploy.
+All content can be modified from /data/site.ts.
+Update:
 
-## 📁 Structure
-```
-app/
-  page.tsx            # Home
-  about/              # About
-  projects/           # Projects
-  experience/         # Experience
-  contact/            # Contact
-components/           # UI
-data/site.ts          # Your content (edit me)
-public/               # Icons/images
-```
+Your name, tagline, and bio
 
-## 📜 Notes
-- Education shows **M.S. in Computer Science (Northern Arizona University)** with **no graduation year**, per your request.
-- College can be removed entirely by clearing the `EDUCATION` array in `data/site.ts`.
+GitHub and LinkedIn links
+
+Resume (PDF in /public)
+
+Skills and projects
