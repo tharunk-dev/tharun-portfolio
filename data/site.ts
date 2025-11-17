@@ -6,7 +6,7 @@ export const SITE = {
   location: "San Jose, CA",
   email: "tharunk.codes@gmail.com",
   github: "https://github.com/tharunk-dev",
-  linkedin: "www.linkedin.com/in/tharunkdev", // placeholder as requested
+  linkedin: "https://www.linkedin.com/in/tharunkdev/", // placeholder as requested
   resumeUrl: "/Tharun K_Software Developement Engineer.pdf",
 };
 
