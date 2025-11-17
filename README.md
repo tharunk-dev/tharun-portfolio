@@ -38,4 +38,4 @@ My focus areas include Java, Spring Boot, React, Node.js, and AWS — blending b
 
 📬 Connect with Me
 
-Email: tharunk.dev@gmail.com
+Email: tharunk.codes@gmail.com

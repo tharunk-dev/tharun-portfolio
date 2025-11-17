@@ -4,7 +4,7 @@ export const SITE = {
   role: "Software Development Engineer",
   tagline: "Building scalable, high‑performance applications across web and cloud.",
   location: "San Jose, CA",
-  email: "tharunk.dev@gmail.com",
+  email: "tharunk.codes@gmail.com",
   github: "https://github.com/tharunk-dev",
   linkedin: "https://www.linkedin.com/", // placeholder as requested
   resumeUrl: "/Tharun K_Software Developement Engineer.pdf",
